@@ -24,6 +24,7 @@ Other functionalities:
 </ul>
  <br />
 Screenshoots:
+<img src="https://user-images.githubusercontent.com/18485317/192484825-ac7c24b1-6479-4641-b4f7-b377b6b35923.png" >
 <img src="https://user-images.githubusercontent.com/18485317/192481515-504d8abb-f02a-4377-ab2c-641d12f31ca1.png" >
 
 ![BST](https://user-images.githubusercontent.com/18485317/192479861-839d93f8-c540-4767-adda-2dc5709705f9.jpg)
