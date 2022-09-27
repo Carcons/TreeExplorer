@@ -1,0 +1,8 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+	<file>icons/addIcon.png</file>
+	<file>icons/delIcon.png</file>
+	<file>icons/logo.png</file>
+	<file>icons/splash.jpg</file>
+</qresource>
+</RCC>
