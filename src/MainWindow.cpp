@@ -157,8 +157,9 @@ void MainWindow::eraseTree() {
 
 void MainWindow::about() {
 
-	QMessageBox::about(this, "TreeExplorer",
-		"<html><body><h1><strong>Tree Explorer</strong></h1><h3><i>Simple binary tree drawer.</i></h3>"
+	QString version = QString::number(TreeExplorer_MAJOR) + "." + QString::number(TreeExplorer_MINOR) + "." + QString::number(TreeExplorer_PATCH);
+	QMessageBox::about(this, "TreeExplorer " + version,
+		"<html><body><h1><strong>Tree Explorer " + version + "</strong></h1><h3><i>Simple binary tree drawer.</i></h3>"
 		"<p>Credits:</p>"
 		"<p>Written by Andrea Carcone (<a href='https://github.com/carcons'>Github</a>) <br />"
 		"<p>Contributors:</p>"
