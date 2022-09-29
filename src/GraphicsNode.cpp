@@ -71,10 +71,6 @@ GraphicsText::GraphicsText(GraphicsNode* parent) : QGraphicsTextItem(parent) {
 	
 	setTextInteractionFlags(Qt::TextEditable);
 
-	QFont f;
-	f.setPointSize(20);
-	setFont(f);
-
 	setX(parent->boundingRect().center().x() - 45);
 	setY(parent->boundingRect().center().y() - boundingRect().height() / 2);
 	setZValue(3);
@@ -82,6 +78,11 @@ GraphicsText::GraphicsText(GraphicsNode* parent) : QGraphicsTextItem(parent) {
 	setTextAlignment();
 
 	setTextWidth(90);
+	
+	QFont f;
+	f.setPixelSize(20);
+	//f.setPointSize(20);
+	setFont(f);
 	
 
 }
