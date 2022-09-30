@@ -10,7 +10,7 @@ set(CMAKE_AUTOUIC ON)
 
 set(TreeExplorer_VERSION_MAJOR 1)
 set(TreeExplorer_VERSION_MINOR 0)
-set(TreeExplorer_VERSION_PATCH 0)
+set(TreeExplorer_VERSION_PATCH 1)
 set(TreeExplorer_VERSION
   "${TreeExplorer_VERSION_MAJOR}.${TreeExplorer_VERSION_MINOR}.${TreeExplorer_VERSION_PATCH}")
 add_definitions( -DTreeExplorer_MAJOR=${TreeExplorer_VERSION_MAJOR} )
